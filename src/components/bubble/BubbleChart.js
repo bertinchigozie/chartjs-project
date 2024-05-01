@@ -7,11 +7,14 @@ import {
   Tooltip,
   PointElement,
   Legend,
-  BubbleController
+  BubbleController,
+  ScatterController
 } from "chart.js";
 ChartJs.register(
   CategoryScale,
   LinearScale,
+  ScatterController,
+  PointElement,
   Tooltip,
   PointElement,
   Legend,
